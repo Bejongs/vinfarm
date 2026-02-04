@@ -222,6 +222,28 @@
     color: var(--light);
 }
 
+/*** Banner ***/
+.banner {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .row.g-4.align-items-center .col-sm-4 img {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+@media (max-width: 575.98px) {
+    .banner .row.g-4.align-items-center .col-sm-4 img {
+        width: 160px;
+        height: 120px;
+    }
+}
+
 
 /*** Section Title ***/
 .section-title {
